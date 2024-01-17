@@ -1,0 +1,190 @@
+*{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    margin-bottom: 2% ;
+}
+.navbar{
+    opacity: 60%;
+}
+#brand,#brand0{
+    display: inline;
+    width: fit-content;
+    white-space: wrap;
+}
+#brand0{
+    border-radius: 50%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 1rem;
+    float: left;
+  }
+  
+  .image {
+    width: 20%;
+    float: right;
+    border-radius: 50% ;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .text, .image {
+      flex: 1 1 100%;
+    }
+  
+    .image {
+      margin-top: 1rem;
+    }
+  }
+
+  .purple-button {
+    background-color: #d990ed; /* This is a purple shade */
+    color: #fff; /* This sets the text color to white */
+    padding: 10px 20px; /* This sets the padding around the text */
+    border: none; /* This removes the default border */
+    border-radius: 5px; /* This rounds the corners of the button */
+    font-size: 16px; /* This sets the font size */
+    cursor: pointer; /* This changes the cursor to a pointer when hovering over the button */
+   }
+   
+   .purple-button:hover {
+    background-color: #7b1fa2; /* This is a darker purple shade */
+   }
+
+   .purple-header {
+    background-color: #7b1fa2;
+    ; /* This is a purple shade */
+    color: #fff; /* This sets the text color to white */
+    padding: 20px; /* This adds some padding to the header */
+   }
+
+main{
+    display:block;
+    width: 90%;
+    margin: 0 auto;
+}
+.parent-box {
+    display: flex;
+    flex-direction: column;
+      justify-content: space-between;
+      width: 90%;
+      margin: 5% auto;
+      height: auto;
+  }
+  
+  .child-box-1,
+  .child-box-2,
+  .child-box-3 {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border-radius: 15px ;
+    opacity: 30%;
+    box-shadow: #7b1fa2;
+    height: min-content;
+  }
+  
+  @media (min-width: 768px) {
+    .parent-box {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .child-box-1,
+    .child-box-2,
+    .child-box-3 {
+      width: calc(65% - 20px);
+    }
+  }
+
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-item {
+    padding: .5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+  }
+  
+  @media (min-width: 767px) {
+    .list-item {
+      height: auto;
+     
+    }
+  }
+   h2{
+    margin: 3px auto;
+    padding: 2px;
+    display: block;
+    height: fit-content;
+   
+    color: #fff;
+  }
+  body{
+    background-image: url(purpluu.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+ .skill{
+    margin: 5% auto;
+ }
+ hr{
+    width: 100%;
+    border: 3px solid black;
+ }
+ h3{
+    font-weight: bold;
+ }
+ .footer {
+    opacity: 80%;
+    background-color: #f2f2f2;
+    color: #7b1fa2;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #7b1fa2;
+    opacity: 30%;
+ }
+ 
+ .footer-text {
+    margin: 5px 0;
+ }
+ 
+ .footer-text a {
+    color: #7b1fa2;
+    text-decoration: none;
+ }
+ 
+ .footer-text a:hover {
+    color: #ccc;
+ }
+ .container a{
+    width: fit-content;
+    float: left;
+ }
